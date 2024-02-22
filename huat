@@ -1,0 +1,7 @@
+import random
+
+def generate_number():
+    return '{:04d}'.format(random.randint(0, 9999))
+
+number = generate_number()
+print(number)
